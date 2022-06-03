@@ -3,7 +3,7 @@ export const PersonalData = [
     <p className={`pl-[50px]`}> personal info: {"{"}</p>,
     <p className={`pl-[100px]`}>name: Aryaan Bhimani,</p>, 
     <p className={`pl-[100px]`}>status: Writing solidity <a href="https://sloika.xyz/">@sloika</a>,</p>,
-    <p className={`pl-[100px]`}>bio: Just a teen surfing the web trying to find +EV on Twitter</p>,  
+    <p className={`pl-[100px]`}>bio: Suffering from finding +EV from Twitter</p>,  
     <p className={`pl-[100px]`}>location: {"{"}</p>, 
     <p className={`pl-[150px]`}>country: Canada,</p>, 
     <p className={`pl-[150px]`}>city: Toronto</p>,

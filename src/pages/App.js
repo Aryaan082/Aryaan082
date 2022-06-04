@@ -10,7 +10,7 @@ function App() {
       <header>
         <div className='bg-stone-300'>
           <div className='flex flex-row pl-8 pt-1 border-2 border-stone-300 border-b-black'>
-            <div className='flex flex-row py-[2px] px-[10px] items-center justify-between gap-2 bg-stone-300 border-2 border-x-black border-t-orange-600 border-b-stone-300 text-center'>
+            <div className='flex flex-row py-[2px] px-[10px] items-center justify-between gap-2 bg-stone-300 border-2 border-x-black border-t-orange-400 border-b-stone-300 text-center'>
               <img 
                 src={jsonIcon}
                 className='w-[17px] h-[17px]'
@@ -25,16 +25,14 @@ function App() {
       </header>
       <body>
         <code>
-          <ul>
-            {PersonalData.map((element, index) => {
-              return (
-                <li className='RowData'>
-                  <div className='bg-stone-300' id='LineNumber'>{index + 1}</div>
-                  <div className='bg-stone-200' id='Data'>{element}</div>
-                </li>
-              )
-            })}
-          </ul>
+          {PersonalData.map((element, index) => {
+            return (
+              <div className='flex flex-row'>
+                <div className='bg-stone-300 flex flex-col flex-[7%] justify-center text-center py-[2px] text-zinc-700'>{index + 1}</div>
+                <div className='bg-stone-200 flex flex-col flex-[93%] pl-[5px] text-zinc-800'>{element}</div>
+              </div>
+            )
+          })}
         </code>
       </body>
     </div>

@@ -9,7 +9,7 @@ export const PersonalData = [
     <p className={"pl-[150px] w-[80%]"}>city: Toronto</p>,
     <p className={"pl-[100px] w-[80%]"}><span className="text-[#8f35ff]">{"}"}</span>,</p>,
     <p className={"pl-[100px] w-[80%]"}>contact me: <span className="text-[#8f35ff]">{"{"}</span></p>, 
-    <p className={"pl-[150px] w-[80%]"}>email: <a href="mailto:aryaan082@gmail.com" target={"_blank"} rel="noreferrer">aryaan.ab.bhimani@gmail.com</a>,</p>, 
+    <p className={"pl-[150px] w-[80%] break-words"}>email: <a href="mailto:aryaan082@gmail.com" target={"_blank"} rel="noreferrer">aryaan.ab.bhimani@gmail.com</a>,</p>, 
     <p className={"pl-[150px] w-[80%]"}>github: <a href="https://github.com/Aryaan082" target={"_blank"} rel="noreferrer">aryaan082</a>,</p>, 
     <p className={"pl-[150px] w-[80%]"}>twitter: <a href="https://twitter.com/aryaan082" target={"_blank"} rel="noreferrer">@aryaan082</a></p>, 
     <p className={"pl-[100px] w-[80%] text-[#8f35ff]"}>{"}"}</p>,

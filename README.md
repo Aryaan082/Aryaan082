@@ -1,7 +1,9 @@
 # Hi, I'm Aryaan
 
-I'm a software engineer living in Toronto, focused on AI agents and full-stack products. I've interned at Shakepay, Ether.fi and Coinbase, and I studied Math and CS at the University of Waterloo.
+I'm a software engineer living in Toronto, working on full stack and AI agents. I've interned at [Shakepay](https://shakepay.com), [Ether.fi](https://www.ether.fi) and [Coinbase](https://www.coinbase.com), and I studied Math and CS at the University of Waterloo.
 
-## Tools
+## What I'm into
 
-Python, TypeScript, React, Solidity
+- Curious about how new things work
+- One-shotting my own versions of the software I use, with Claude
+- Exploring new tech and finding where I fit
